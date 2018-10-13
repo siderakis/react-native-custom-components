@@ -167,6 +167,7 @@ class NavigatorNavigationBar extends React.Component {
 
     return (
       <View
+        pointEvents="box-none"
         key={this._key}
         style={[styles.navBarContainer, navBarStyle, this.props.style]}>
         {components}
